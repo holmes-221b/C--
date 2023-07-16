@@ -8,6 +8,7 @@ class UnionFind
             for (int index=0; index<sz; index++)
             {
                 root[index] = index;
+                rank[index] = 1;
             }
         }
     
